@@ -1,0 +1,17 @@
+@font-face{font-family:Montserrat;src:url("./Montserrat-Regular.ttf");font-weight:400}
+body{padding:0;margin:0;font-family:Montserrat}
+.controller{position:relative}
+.navbar{position:absolute;z-index:10;width:100%;height:45px;background-color:#232323;box-shadow:0 2px 5px #000;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;}
+.navbar .title{color:#fff;font-size:20px;line-height:45px;text-align:center}
+.navbar .button{position:absolute;right:0;top:0;width:45px;height:45px;color:transparent;line-height:45px;text-align:center;border-left:1px solid #fff;background-image:url("./plus-icon.png");background-size:25px;background-repeat:no-repeat;background-position:center center;opacity:.5;}
+.navbar .button.tap,.navbar .button:hover{opacity:1}
+.list{position:absolute;top:47px;width:100%;overflow:auto;-webkit-overflow-scrolling:touch;-webkit-transform:translateZ(0);}
+.list .row{position:relative;height:40px;border-bottom:solid 1px #eee;overflow:hidden;}
+.list .row.completed input{font-style:italic;text-decoration:line-through}
+.list .row input{-webkit-appearance:none}
+.list .row input[type='checkbox']{position:absolute;left:0;top:-3px;width:40px;height:40px;border:none;border-radius:0;border-right:solid 1px #eee;}
+.list .row input[type='checkbox']:checked{background-image:url("./checkmark-icon.png");background-size:25px;background-repeat:no-repeat;background-position:center center;background-color:#ccc}
+.list .row input[type='text']{border:none;line-height:25px;font-size:15px;margin-top:5px;margin-left:55px;width:70%}
+@media (device-aspect-ratio: 40/71){.list:after{content:'';position:absolute;top:0;left:0;width:1px;height:504px}
+}@media (device-aspect-ratio: 2/3){.list:after{content:'';position:absolute;top:0;left:0;width:1px;height:417px}
+}
