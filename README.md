@@ -4,6 +4,8 @@ This is an app I've developed for my talk on [BarCamp Stockholm](http://barcamps
 
 The talk was "Develop one app on five platforms in 15min".
 
+![Screenshots](https://raw.github.com/walm/todado/master/screenshot.jpg)
+
 Basically, it's a HTML5 app package for OSX, Windows, iPhone, Android and well the web on [todado.com](http://todado.com).
 
 ## Using:
